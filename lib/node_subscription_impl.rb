@@ -21,9 +21,7 @@ class NodeSubscription < Subscription
   # @return [NodeSubscription]
   #   The singleton.
   def self.instance()
-    if (@instance.nil?()) then
-      self.instance = new()
-    end
+    if (@instance.nil?()) then self.instance = new() end
     return @instance
   end
 
@@ -37,9 +35,7 @@ class NodeSubscription < Subscription
   def publisher(p = nil)
 
     feeds().to_a().each { |feed|
-      if (feed.key?(p)) then
-        return true
-      end
+      if (feed.key?(p)) then return true end
     }
     return false
 
@@ -147,9 +143,7 @@ subscribed.")
     if (publisher(p))
 
       feeds().to_a().each { |feed|
-        if (feed.key?(p)) then
-          return feed[p]
-        end
+        if (feed.key?(p)) then return feed[p] end
       }
 
     else
