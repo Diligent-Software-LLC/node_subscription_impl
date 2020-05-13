@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.0.0, 2020-05-13
+
+### Added
+
+### Edited
+
+### Fixed
+
+- Circular subscription_impl dependency.
+
 ## v0.1.0, 2020-05-12
 
 ### Added
