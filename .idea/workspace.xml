@@ -27,9 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bd8e11a-3a46-4c99-8754-85790fd0435d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_subscription_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_subscription_impl/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_subscription_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_subscription_impl.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +251,7 @@
       <workItem from="1588975294555" duration="3660000" />
       <workItem from="1589221782782" duration="9912000" />
       <workItem from="1589310469142" duration="15000" />
-      <workItem from="1589314152905" duration="6545000" />
+      <workItem from="1589314152905" duration="8113000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added Gem Specification. Added README.md.">
       <created>1588976596092</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589376452813</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Prepare Deployment&#10;&#10;Fixed circular dependency.">
+      <created>1589376950669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589376950669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Subscription Subsystem:{ Node } Component: Implementation Sprints: 1 State: {Prepare Deployment}" />
@@ -318,7 +323,8 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Fixed reformat bugs." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Partially fixed circular dependency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Partially fixed circular dependency." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Fixed circular dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Fixed circular dependency." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="175" key="#Deployment" timestamp="1589322107490">
@@ -329,26 +335,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="432" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588882022425" />
-    <state x="140" y="63" width="1353" height="853" key="CommitChangelistDialog2" timestamp="1589376452557">
+    <state x="140" y="63" width="1353" height="853" key="CommitChangelistDialog2" timestamp="1589376950390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="140" y="63" width="1353" height="853" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589376452557" />
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1589376915237">
+    <state x="140" y="63" width="1353" height="853" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589376950390" />
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1589384093786">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589376915237" />
-    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1589376915236">
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589384093786" />
+    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1589384093785">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589376915236" />
-    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1589376915236">
+    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589384093785" />
+    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1589384093785">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589376915236" />
-    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1589376915237">
+    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589384093785" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1589384093785">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589376915237" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589384093785" />
     <state width="1545" height="335" key="GridCell.Tab.1.bottom" timestamp="1589298497357">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -385,10 +391,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="349" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1589322227299" />
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589376602543">
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589384114611">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589376602543" />
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589384114611" />
     <state x="424" y="235" width="816" height="550" key="find.popup" timestamp="1589222292823">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -404,7 +410,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_subscription_impl@test_as_x3.rcov" NAME="test_as_x3 Coverage Results" MODIFIED="1589297325865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />
-    <SUITE FILE_PATH="coverage/node_subscription_impl@NodeSubscriptionTest.rcov" NAME="NodeSubscriptionTest Coverage Results" MODIFIED="1589376911246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />
+    <SUITE FILE_PATH="coverage/node_subscription_impl@NodeSubscriptionTest.rcov" NAME="NodeSubscriptionTest Coverage Results" MODIFIED="1589384087692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />
     <SUITE FILE_PATH="coverage/node_subscription_impl@test_as_x1a.rcov" NAME="test_as_x1a Coverage Results" MODIFIED="1589223023181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />
     <SUITE FILE_PATH="coverage/node_subscription_impl@test_us_x2.rcov" NAME="test_us_x2 Coverage Results" MODIFIED="1589289530918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />
     <SUITE FILE_PATH="coverage/node_subscription_impl@test_ap_x1.rcov" NAME="test_ap_x1 Coverage Results" MODIFIED="1589223341704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_subscription_impl" />

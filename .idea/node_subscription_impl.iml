@@ -52,6 +52,6 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.1, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.18.5, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.12.2, RVM: ruby-2.6.5) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="subscription_impl (v0.1.2, RVM: ruby-2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="subscription_impl (v1.0.0, RVM: ruby-2.6.5) [gem]" level="application" />
   </component>
 </module>

@@ -46,6 +46,6 @@ Greatly appreciated.}
   spec.add_development_dependency 'node_diagram', '~> 0'
   spec.add_development_dependency 'diagram_factory_int', '~> 1'
   spec.add_development_dependency 'diagram_factory_impl', '~> 0'
-  spec.add_development_dependency 'subscription_impl', '~> 0'
+  spec.add_development_dependency 'subscription_impl', '~> 1'
 
 end
